@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{c091e98a-4830-475c-b9f2-779d845ed763}">
+		<property name="assetPath">
+			<value>voiceovers/bob/vo_npcRandom1-out1.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.906625</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ab32d182-4546-46e2-9b9b-971b1518a80e}</destination>
+		</relationship>
+	</object>
+</objects>

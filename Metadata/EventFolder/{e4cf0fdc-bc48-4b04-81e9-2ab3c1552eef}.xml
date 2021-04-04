@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="EventFolder" id="{e4cf0fdc-bc48-4b04-81e9-2ab3c1552eef}">
+		<property name="name">
+			<value>randomNPCs</value>
+		</property>
+		<relationship name="folder">
+			<destination>{b05c06a1-5a90-4e35-8b69-9afa7dfad106}</destination>
+		</relationship>
+	</object>
+</objects>

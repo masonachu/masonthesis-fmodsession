@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{d7e9a83b-c5bb-4fc6-902d-ad18654c9136}">
+		<property name="assetPath">
+			<value>voiceovers/jorbadiah/vo_Jorbadiah_leave3.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>1.4843124999999999</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ab32d182-4546-46e2-9b9b-971b1518a80e}</destination>
+		</relationship>
+	</object>
+</objects>

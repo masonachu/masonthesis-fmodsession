@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="MixerMaster" id="{8da16e05-2d42-404b-bd1d-86ddd3d71365}">
+		<property name="name">
+			<value>Master Bus</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{ca6fe35b-ed7d-4d40-87f1-f9c49aade3f4}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{30af241e-0909-4843-9707-3577077d794a}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{11f5b786-4e8d-4cf3-afbc-5269e2f64cbe}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{ca6fe35b-ed7d-4d40-87f1-f9c49aade3f4}">
+		<relationship name="effects">
+			<destination>{b31601bd-f206-4154-9f07-f3e81a562578}</destination>
+			<destination>{2da688da-260a-429e-9b6f-4179e2bfb421}</destination>
+			<destination>{90ec2f2d-b7df-4957-86fb-2e0fb5d804e6}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{30af241e-0909-4843-9707-3577077d794a}">
+		<property name="overridingOutputFormat">
+			<value>2</value>
+		</property>
+	</object>
+	<object class="MixerSend" id="{b31601bd-f206-4154-9f07-f3e81a562578}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
+		<property name="level">
+			<value>0</value>
+		</property>
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{cd325c4a-45bb-4ae0-a5a6-70e07d665465}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusFader" id="{2da688da-260a-429e-9b6f-4179e2bfb421}" />
+	<object class="PluginEffect" id="{90ec2f2d-b7df-4957-86fb-2e0fb5d804e6}">
+		<relationship name="plugin">
+			<destination>{3a0c69d7-1739-4e03-910d-858ca598f339}</destination>
+		</relationship>
+	</object>
+	<object class="Plugin" id="{3a0c69d7-1739-4e03-910d-858ca598f339}">
+		<property name="identifier">
+			<value>Resonance Audio Listener</value>
+		</property>
+		<relationship name="pluginParameters">
+			<destination>{45beb1e5-9e5a-4a32-b207-31ede9332669}</destination>
+			<destination>{dc02601f-dbe9-4202-9564-0f3c669057ac}</destination>
+		</relationship>
+	</object>
+	<object class="FloatPluginParameter" id="{45beb1e5-9e5a-4a32-b207-31ede9332669}">
+		<property name="name">
+			<value>Gain</value>
+		</property>
+		<property name="value">
+			<value>-9.99999975e-06</value>
+		</property>
+		<property name="curve">
+			<value>{(0.000000,-80.000000)(1.000000,0.000000)}</value>
+		</property>
+	</object>
+	<object class="DataPluginParameter" id="{dc02601f-dbe9-4202-9564-0f3c669057ac}">
+		<property name="name">
+			<value>Room Properties</value>
+		</property>
+		<property name="dataType">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{16408c09-d316-4087-a01c-34089740ebe2}">
+		<property name="name">
+			<value>SaxPuzzleComplete</value>
+		</property>
+		<relationship name="folder">
+			<destination>{748bb838-95b5-4edc-a251-6aeec880ea84}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{95de2d8c-7c2f-4e81-ac3d-663bb97b6042}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{95de2d8c-7c2f-4e81-ac3d-663bb97b6042}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

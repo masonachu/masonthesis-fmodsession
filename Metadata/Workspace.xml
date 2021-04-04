@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="Workspace" id="{a155061f-93fa-4385-ac4d-f34cd45d9d91}">
+		<property name="builtBanksOutputDirectory">
+			<value>F:/GitHub/masonvictoria-borfclorgman/FMOD</value>
+		</property>
+		<relationship name="masterEventFolder">
+			<destination>{e15da625-c46b-43b5-b492-be7a044ecbf5}</destination>
+		</relationship>
+		<relationship name="masterTagFolder">
+			<destination>{2867c53a-be24-4d73-bce2-f7514ecc3510}</destination>
+		</relationship>
+		<relationship name="masterEffectPresetFolder">
+			<destination>{74054071-a665-400e-a2ed-ae7897074f26}</destination>
+		</relationship>
+		<relationship name="masterParameterPresetFolder">
+			<destination>{748bb838-95b5-4edc-a251-6aeec880ea84}</destination>
+		</relationship>
+		<relationship name="masterBankFolder">
+			<destination>{938132e8-ddc9-4ede-a4a6-45a09caa32be}</destination>
+		</relationship>
+		<relationship name="masterSandboxFolder">
+			<destination>{555b7260-9649-41aa-8987-96e309dfbf74}</destination>
+		</relationship>
+		<relationship name="masterAssetFolder">
+			<destination>{ab32d182-4546-46e2-9b9b-971b1518a80e}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{11f5b786-4e8d-4cf3-afbc-5269e2f64cbe}</destination>
+		</relationship>
+		<relationship name="profilerSessionFolder">
+			<destination>{fa6936c3-5bed-4e3d-a6e5-096c5366f0d3}</destination>
+		</relationship>
+		<relationship name="platforms">
+			<destination>{a0616fe8-97f4-4fae-9097-4cbefd471f4a}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{aaec0f02-3488-464d-8427-192e047290a3}">
+		<property name="name">
+			<value>HasSpoken</value>
+		</property>
+		<relationship name="folder">
+			<destination>{748bb838-95b5-4edc-a251-6aeec880ea84}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{6f85d946-3859-4b74-a813-11c4824983ac}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{6f85d946-3859-4b74-a813-11c4824983ac}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
