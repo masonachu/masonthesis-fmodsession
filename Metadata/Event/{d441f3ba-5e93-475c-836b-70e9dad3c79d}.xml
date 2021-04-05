@@ -280,11 +280,20 @@
 		<property name="filterTypeA">
 			<value>4</value>
 		</property>
+		<property name="filterTypeE">
+			<value>8</value>
+		</property>
 		<property name="frequencyA">
-			<value>1024.91663</value>
+			<value>183.58522</value>
+		</property>
+		<property name="frequencyE">
+			<value>1184.88428</value>
 		</property>
 		<property name="qualityA">
-			<value>0.602344871</value>
+			<value>0.751586199</value>
+		</property>
+		<property name="gainE">
+			<value>-5.6896553</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{afcf5e17-4e53-4062-83f6-0506df3f9cb1}" />
@@ -378,7 +387,7 @@
 			<value>Gain</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>-12</value>
 		</property>
 		<property name="curve">
 			<value>{(0.000000,-80.000000)(1.000000,24.000000)}</value>
